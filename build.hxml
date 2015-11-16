@@ -1,0 +1,9 @@
+-cp src
+-cs bin/cs_out
+-D erase-generics
+-D real-position
+-D no-compilation
+-D net-ver=40
+-net-lib bin/JSCore.dll
+--macro DataClassMacro.genModule("dragons.PlayerData")
+-main Test
