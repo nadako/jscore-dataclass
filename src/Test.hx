@@ -6,7 +6,7 @@ class Test {
     static function main() {
         var src = '{
             "name": "Dan",
-            "level": "aza",
+            "level": 25,
             "ids": [{"a":10, "b":1.5}, {"a":3, "b":2.8}],
             "tutorialComplete": false,
             "registerTime": 15,
